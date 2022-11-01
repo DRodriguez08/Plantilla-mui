@@ -17,35 +17,35 @@ const StepsToDeploySection = () => {
     href: string;
   }[] = [
     {
-      title: "Elige una plantilla",
+      title: "Elige una plantilla de la que copiarte",
       description:
-        "Elige entre +100 plantillas diseñadas profesionalmente para páginas web.",
-      label: "Buscar plantillas",
+        "Elige entre mas de 100 plantillas diseñadas profesionalmente para tu páginas web.",
+      label: "Buscar plantillas de las que copiarte",
       href: "#",
     },
     {
-      title: "Personaliza lo que quieras",
-      description: "Fuentes, imágenes, texto y más.",
+      title: "Personalizalas para que no se note que te plageaste",
+      description: "Cambiales las fuentes, imágenes, texto y más.",
       label: "Aprende más",
       href: "#",
     },
     {
-      title: "Crea un logotipo",
-      description: "Completa tu marca con un logotipo profesional.",
+      title: "Crea el logo generico numero 198675190",
+      description: "Plageate de un logotipo profesional.",
       label: "Explora todas las opciones",
       href: "#",
     },
     {
-      title: "Elige un dominio",
+      title: "Elige un dominio (A.K.A. direccion URL)",
       description:
-        "Usa un dominio existente o con un nuevo dominio personalizado.",
+        "Usa o crea una URL para usar de dominio web",
       label: "Aprende más",
       href: "#",
     },
     {
-      title: "Pública",
+      title: "Públicita tu pagina para que tres familiares tuyos la vean",
       description:
-        "Haz crecer tu presencia en línea con las herramientas de marketing y SEO.",
+        "Haz crecer tu presencia en vano con herramientas de marketing.",
       label: "",
       href: "#",
     },
@@ -58,7 +58,7 @@ const StepsToDeploySection = () => {
     };
   return (
     <CardSection
-      title={`Crea una página web de la que estés orgulloso en ${steps.length} pasos`}
+      title={`Crea una página web de la que se burlen de ti en ${steps.length} pasos`}
       withButtonCreate
     >
       <Fragment>

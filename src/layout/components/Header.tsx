@@ -12,12 +12,12 @@ import NavMobile from "./NavMobile";
 
 const linksLeft = [
   {
-    label: "Plantillas",
+    label: "Plantillas para copiarte",
     href: "/plantillas",
     icon: <Web />,
   },
   {
-    label: "Precios",
+    label: "Precios para que te espantes",
     href: "/precios",
     icon: <MonetizationOn />,
   },
@@ -30,7 +30,7 @@ const linksRight = [
     icon: <Login />,
   },
   {
-    label: "Registrarse",
+    label: "Crear nueva cuenta",
     href: "/register",
     icon: <AppRegistration />,
   },

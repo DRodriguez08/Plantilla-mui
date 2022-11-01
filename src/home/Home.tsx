@@ -6,6 +6,7 @@ import OnlineSaleSection from "./components/OnlineSaleSection";
 import PlansSection from "./components/PlansSection";
 import StepsToDeploySection from "./components/StepsToDeploySection";
 import TemplateCustomSection from "./components/TemplateCustomSection";
+import Footer from "../layout/components/Footer";
 
 const Home = () => {
   return (
@@ -23,6 +24,7 @@ const Home = () => {
             <CustomerSuportSection />
             <OnlineSaleSection />
             <TemplateCustomSection />
+            <Footer />
           </Stack>
         </Container>
       </Container>

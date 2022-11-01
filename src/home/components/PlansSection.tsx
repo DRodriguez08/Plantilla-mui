@@ -23,7 +23,7 @@ const PlansSection = () => {
     {
       title: "Website",
       description: "Crea un catálogo profesional y atractivo que sorprenda.",
-      price: 2990,
+      price: 50,
       hrefViewMore: "#",
       hrefSelectPlan: "#",
     },
@@ -31,7 +31,7 @@ const PlansSection = () => {
       title: "Business",
       description:
         "Comienza a vender al instante con los elementos esenciales del eCommerce.",
-      price: 5990,
+      price: 100,
       hrefViewMore: "#",
       hrefSelectPlan: "#",
     },
@@ -39,7 +39,7 @@ const PlansSection = () => {
       title: "Advanced Store",
       description:
         "Haz crecer tu negocio con potentes herramientas de marketing.",
-      price: 8990,
+      price: 201,
       hrefViewMore: "#",
       hrefSelectPlan: "#",
     },
