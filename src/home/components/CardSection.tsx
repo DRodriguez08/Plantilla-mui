@@ -40,19 +40,19 @@ const CardSection = ({
           xs: layoutColumn,
           md: layout,
         }}
-        gap={2}
+        gap={4}
       >
         <Box gridArea={"title"}>
-          <Typography variant="h4" className="title" textAlign={"center"}>
+          <Typography variant="h4" className="title" textAlign={"left"}>
             {title}
           </Typography>
         </Box>
 
         <Box gridArea={"price"}>
-          <Typography variant="caption">
+          <Typography variant="caption" textAlign={"left"}>
             Siempre disponible a
           </Typography>
-          <Typography variant="h4" className="price" textAlign={"center"}>
+          <Typography variant="h4" className="price" textAlign={"left"}>
             {price}
           </Typography>
         </Box>
@@ -62,7 +62,7 @@ const CardSection = ({
               variant="body1"
               className="subtitle"
               maxWidth="sm"
-              textAlign={"center"}
+              textAlign={"left"}
               mx="auto"
             >
               {subtitle}
@@ -70,7 +70,7 @@ const CardSection = ({
           )}
         </Box>
 
-        <Box gridArea={"btn"} display="flex" justifyContent={"center"}>
+        <Box gridArea={"btn"} display="flex" justifyContent={"left"}>
           {withButtonCreate && (
             <Button variant="contained" className="button contained">
               AÑADIR AL CARRITO 
