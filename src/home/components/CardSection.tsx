@@ -62,7 +62,7 @@ const CardSection = ({
         <Box gridArea={"btn"} display="flex" justifyContent={"center"}>
           {withButtonCreate && (
             <Button variant="contained" className="button contained">
-              Comienza a crear
+              AÑADIR AL CARRITO
             </Button>
           )}
         </Box>

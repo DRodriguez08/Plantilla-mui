@@ -7,9 +7,9 @@ import {
 } from "@mui/material";
 
 const MainSection = () => {
-  const title = "Vos buscas crecer\n Nosotros buscamos ayudarte";
+  const title = "Mas ropa modesta\n por menos precio";
   const subtitle =
-    "Crea una web sencilla con plantillas recicladas, poca originalidad y cero programacion.";
+    "Los mejores articulos de vestimenta a precios pensados para todos";
   const sm = useMediaQuery("min-width(600px)");
 
   return (

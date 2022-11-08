@@ -21,25 +21,25 @@ const PlansSection = () => {
     hrefSelectPlan: string;
   }[] = [
     {
-      title: "Website",
-      description: "Crea un catálogo profesional y atractivo que sorprenda.",
-      price: 50,
+      title: "Remera playera",
+      description: "El verano aprieta, pero una buena remera playera no ahorca",
+      price: 149,
       hrefViewMore: "#",
       hrefSelectPlan: "#",
     },
     {
-      title: "Business",
+      title: "Gabardina",
       description:
-        "Comienza a vender al instante con los elementos esenciales del eCommerce.",
-      price: 100,
+        "Ya sea para el frio, o para filmar una pelicula Noir, de cuero del mejor",
+      price: 249,
       hrefViewMore: "#",
       hrefSelectPlan: "#",
     },
     {
-      title: "Advanced Store",
+      title: "Jeans clasicos",
       description:
-        "Haz crecer tu negocio con potentes herramientas de marketing.",
-      price: 201,
+        "Clasico, simple y efectivo, la opcion facil para cualquier evento",
+      price: 199,
       hrefViewMore: "#",
       hrefSelectPlan: "#",
     },
@@ -48,7 +48,7 @@ const PlansSection = () => {
   return (
     <Stack spacing={2}>
       <Typography textAlign={"center"} variant="h4" className="title">
-        Elije el plan que mejor te convenga
+        Una pequeña muestra de nuestro catalogo
       </Typography>
       <Box>
         <Grid container spacing={4}>
@@ -67,13 +67,13 @@ const PlansSection = () => {
                 <CardHeader title={item.title} subheader={item.description} />
                 <Box>
                   <CardContent>
-                    <Typography variant="caption">Desde</Typography>
+                    <Typography variant="caption">Siempre disponible a</Typography>
                     <Typography variant="h4" className="title">
                       {`AR$ ${item.price
                         .toString()
                         .replace(/\B(?=(\d{3})+(?!\d))/g, ".")},00`}
                     </Typography>
-                    <Typography variant="caption">/mes</Typography>
+                    <Typography variant="caption"></Typography>
                   </CardContent>
                   <CardActions></CardActions>
                   <Stack direction={"row"} spacing={2}>
@@ -82,14 +82,7 @@ const PlansSection = () => {
                       className="button contained"
                       href={item.hrefSelectPlan}
                     >
-                      Seleccionar
-                    </Button>
-                    <Button
-                      variant="text"
-                      className="button button-text"
-                      href={item.hrefViewMore}
-                    >
-                      Ver más
+                      AÑADIR AL CARRITO
                     </Button>
                   </Stack>
                 </Box>
