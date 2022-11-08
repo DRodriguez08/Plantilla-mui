@@ -24,7 +24,6 @@ const Home = () => {
             <CustomerSuportSection />
             <OnlineSaleSection />
             <TemplateCustomSection />
-            <Footer />
           </Stack>
         </Container>
       </Container>
