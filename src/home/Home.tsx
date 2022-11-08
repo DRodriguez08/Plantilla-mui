@@ -21,8 +21,6 @@ const Home = () => {
             <PlansSection />
             <BuildFastSection />
             <CustomerSuportSection />
-            <OnlineSaleSection />
-            <TemplateCustomSection />
           </Stack>
         </Container>
       </Container>

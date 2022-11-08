@@ -26,7 +26,7 @@ const MainSection = () => {
         }}
         gridTemplateRows="auto"
         gridTemplateAreas={{
-          xs: "'.' '.' 'title' 'subtitle' 'btn'",
+          xs: "'.' '.' 'title' 'price' 'subtitle' 'btn'",
           sm: "'. img' 'title img' 'subtitle img' 'btn img' '. img'",
         }}
         columnGap={{

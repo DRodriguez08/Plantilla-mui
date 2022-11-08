@@ -4,9 +4,11 @@ import Image from "next/image";
 const BuildFastSection = () => {
   return (
     <CardSection
-      title="Construye rápido. Crece rápido. Carga más rápido"
-      subtitle="Obtén una página web profesional que cargue a la velocidad de la luz. Convierte más tráfico de tu página web en clientes y clasifica entre los primeros en los motores de búsqueda."
+      title="Kit de verano"
+      subtitle="Con el verano pateando mas fuerte que un caballo enojado, al menos con este equipo de ropa podras sudar con estilo, disponible en rojo y verde."
+      price="AR$ 1,299"
       withButtonCreate
+      reverseContent
     >
       <Image
         src="https://picsum.photos/1200/800"

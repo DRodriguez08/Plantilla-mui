@@ -1,8 +1,8 @@
 import {
-  AppRegistration,
+  LocalGroceryStore,
   Login,
   MonetizationOn,
-  Web,
+  LocalOffer,
 } from "@mui/icons-material";
 import { Box } from "@mui/material";
 import Head from "next/head";
@@ -12,9 +12,9 @@ import NavMobile from "./NavMobile";
 
 const linksLeft = [
   {
-    label: "Sobre nosotros",
+    label: "Catalogo",
     href: "/plantillas",
-    icon: <Web />,
+    icon: <LocalOffer />,
   }
 ];
 
@@ -22,7 +22,7 @@ const linksRight = [
   {
     label: "Tu carro de compras",
     href: "/register",
-    icon: <AppRegistration />,
+    icon: <LocalGroceryStore />,
   },
 ];
 

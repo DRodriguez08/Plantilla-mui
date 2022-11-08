@@ -5,6 +5,7 @@ const CardSection = ({
   children,
   title,
   subtitle,
+  price,
   withButtonCreate = false,
   justContent = false,
   reverseContent = false,
@@ -12,17 +13,18 @@ const CardSection = ({
   children: ReactChild;
   title: string;
   subtitle?: string;
+  price: string;
   withButtonCreate?: boolean;
   justContent?: boolean;
   reverseContent?: boolean;
 }) => {
   const layoutRow = reverseContent
-    ? "'children .' 'children title' 'children subtitle ' 'children btn' 'children .'"
-    : "'. children' 'title children' 'subtitle children' 'btn children' '. children'";
+    ? "'children .' 'children title' 'children subtitle' 'children subtitle' 'children price' 'children btn' 'children .'"
+    : "'. children' 'title children' 'subtitle children' 'price children' 'btn children' '. children'";
 
-  const layoutColumn = "'title' 'subtitle' 'children' 'btn' ";
+  const layoutColumn = "'title' 'subtitle' 'price' 'children' 'btn' ";
   const layoutColumnX2 =
-    "'title title' 'subtitle subtitle' 'children  children' 'btn btn'";
+    "'title title' 'subtitle subtitle' 'price price' 'children  children' 'btn btn'";
 
   const layout = justContent ? layoutColumnX2 : layoutRow;
   return (
@@ -46,6 +48,14 @@ const CardSection = ({
           </Typography>
         </Box>
 
+        <Box gridArea={"price"}>
+          <Typography variant="caption">
+            Siempre disponible a
+          </Typography>
+          <Typography variant="h4" className="price" textAlign={"center"}>
+            {price}
+          </Typography>
+        </Box>
         <Box gridArea={"subtitle"}>
           {subtitle && (
             <Typography
@@ -59,10 +69,11 @@ const CardSection = ({
             </Typography>
           )}
         </Box>
+
         <Box gridArea={"btn"} display="flex" justifyContent={"center"}>
           {withButtonCreate && (
             <Button variant="contained" className="button contained">
-              AÑADIR AL CARRITO
+              AÑADIR AL CARRITO 
             </Button>
           )}
         </Box>
