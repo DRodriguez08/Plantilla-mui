@@ -83,7 +83,7 @@ const MainSection = () => {
         <Box
           gridArea={"img"}
           sx={{
-            backgroundImage: `url("https://picsum.photos/1200/800")`,
+            href: "./public/photos/IMG-20221115-WA0002.jpg",
             backgroundSize: "cover",
             backgroundPosition: "center",
             backgroundRepeat: "no-repeat",

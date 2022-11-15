@@ -12,7 +12,7 @@ const CustomerSuportSection = () => {
       reverseContent
     >
       <Image
-        src="https://picsum.photos/1200/800"
+        src={"./public/photos/IMG-20221115-WA0015.jpg"}
         alt="Demo de una web dedicada a la indumentaria"
         height="800px"
         width="1200px"

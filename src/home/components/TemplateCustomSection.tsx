@@ -6,6 +6,7 @@ import Image from "next/image";
 const TemplateCustomSection = () => {
   return (
     <CardSection
+      price=""
       title="Plantillas totalmente personalizables"
       subtitle="Plantillas creadas para satisfacer tus necesidades. Elige una plantilla y edita cualquier cosa: cambia colores, fuentes, imágenes y más. No se necesitan habilidades de codificación."
       justContent
