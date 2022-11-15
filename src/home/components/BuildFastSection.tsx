@@ -11,10 +11,8 @@ const BuildFastSection = () => {
       reverseContent
     >
       <Image
-        src="https://picsum.photos/1200/800"
+        src={require('../../../public/photos/IMG-20221115-WA0002.jpg')}
         alt="Demo de una web dedicada a la indumentaria"
-        height="800px"
-        width="1200px"
       />
     </CardSection>
   );

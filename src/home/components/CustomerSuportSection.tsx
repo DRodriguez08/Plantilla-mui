@@ -12,10 +12,8 @@ const CustomerSuportSection = () => {
       reverseContent
     >
       <Image
-        src={"./public/photos/IMG-20221115-WA0015.jpg"}
+        src={require('../../../public/photos/IMG-20221115-WA0015.jpg')}
         alt="Demo de una web dedicada a la indumentaria"
-        height="800px"
-        width="1200px"
       />
     </CardSection>
   );

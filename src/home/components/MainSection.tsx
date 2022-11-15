@@ -5,12 +5,14 @@ import {
   Typography,
   useMediaQuery,
 } from "@mui/material";
+import { url } from "inspector";
+import Image from "next/image";
 
 const MainSection = () => {
   const title = "Mas ropa modesta\n por menos precio";
   const subtitle =
     "Los mejores articulos de vestimenta a precios pensados para todos";
-  const sm = useMediaQuery("min-width(600px)");
+  const sm = useMediaQuery("min-width(1000px)");
 
   return (
     <Container
@@ -26,7 +28,7 @@ const MainSection = () => {
         }}
         gridTemplateRows="auto"
         gridTemplateAreas={{
-          xs: "'.' '.' 'title' 'price' 'subtitle' 'btn'",
+          xs: "'.' '.' 'title' 'price' 'subtitle' 'img' 'btn'",
           sm: "'. img' 'title img' 'subtitle img' 'btn img' '. img'",
         }}
         columnGap={{
@@ -82,13 +84,15 @@ const MainSection = () => {
 
         <Box
           gridArea={"img"}
-          sx={{
-            href: "./public/photos/IMG-20221115-WA0002.jpg",
-            backgroundSize: "cover",
-            backgroundPosition: "center",
-            backgroundRepeat: "no-repeat",
-          }}
-        />
+
+        >
+          <Image
+            src={require('../../../public/photos/IMG-20221115-WA0015.jpg')}
+            alt="Demo de una web dedicada a la indumentaria"
+            height={600}
+            width={450}
+          />
+        </Box>
       </Box>
     </Container>
   );
