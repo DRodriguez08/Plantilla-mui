@@ -84,7 +84,10 @@ const MainSection = () => {
 
         <Box
           gridArea={"img"}
-
+          justifySelf={{
+            xs: "center",
+            sm: "right"
+          }}
         >
           <Image
             src={require('../../../public/photos/IMG-20221115-WA0015.jpg')}
