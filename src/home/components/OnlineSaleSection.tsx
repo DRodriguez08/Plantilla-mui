@@ -51,6 +51,7 @@ const OnlineSaleSection = () => {
   return (
     <CardSection
       title="Vende online sin tarifas sorpresa"
+      price=""
       subtitle="Nuestro increíble creador eCommerce tiene todo lo que necesitas para empezar, administrar y hacer crecer tu negocio sin tocar tus ganancias."
       justContent
     >

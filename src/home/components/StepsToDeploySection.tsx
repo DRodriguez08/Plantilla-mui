@@ -58,6 +58,7 @@ const StepsToDeploySection = () => {
     };
   return (
     <CardSection
+      price =""
       title={`Crea una página web de la que se burlen de ti en ${steps.length} pasos`}
       withButtonCreate
     >

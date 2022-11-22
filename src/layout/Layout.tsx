@@ -8,8 +8,9 @@ const Layout = ({ children }: { children: ReactNode }) => {
   return (
     <Box display={"flex"} flexDirection="column" minHeight={"100vh"}>
       <Header />
-      <Main>{children}</Main>
-      <Footer />
+      <Main>
+        {children}
+      </Main>
     </Box>
   );
 };
